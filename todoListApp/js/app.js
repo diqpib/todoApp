@@ -55,6 +55,7 @@ function btnAllClearClicked() {
   todoList.innerHTML = "";
   localStorage.clear();
 }
+console.log("testing github againasabg shas");
 
 function markIconClicked(clickEventInfo) {
   const todoText = clickEventInfo.target.nextElementSibling;
